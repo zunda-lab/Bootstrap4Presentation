@@ -8,7 +8,8 @@
 	<title>reveal.js</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/theme/night.css">
+	<!-- <link rel="stylesheet" href="css/theme/black.css"> -->
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -26,11 +27,14 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
+			<section data-markdown="./md/menu.md" data-separator="^\n---\n" data-separator-vertical="^\+\+\+\n" data-separator-notes="^Note:"
+			 data-charset="UTF-8" id="menu">
+			</section>
 			<section data-markdown="./md/setup_mac.md" data-separator="^\n---\n" data-separator-vertical="^\+\+\+\n" data-separator-notes="^Note:"
-			 data-charset="UTF-8">
+			 data-charset="UTF-8" id="setup_mac">
 			</section>
 			<section data-markdown="./md/setup_win.md" data-separator="^\n---\n" data-separator-vertical="^\+\+\+\n" data-separator-notes="^Note:"
-			 data-charset="UTF-8">
+			 data-charset="UTF-8" id="setup_win">
 			</section>
 		</div>
 	</div>
@@ -43,6 +47,9 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
+
+			history: false,
+
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
