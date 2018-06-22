@@ -93,3 +93,6 @@ Visual Studio Codeが起動されればインストールは成功です。git�
 
 ---
 起動を確認したらVisual Studio Codeを終了しましょう。Visual Studio Codeはこの後のレクチャー動画で多く取り扱っていきます。
+
+---
+open -a 'Visual Studio Code.app' --args --disable-gpu

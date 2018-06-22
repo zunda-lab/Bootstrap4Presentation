@@ -1,0 +1,54 @@
+# Bootstrap4の基本的な雛形
+
+---
+このレクチャーでは、Bootstrap4の基本的な雛形についてお話しします。
+
+---
+Bootstrap4の基本的な雛形は、Bootstrap4の公式ページに掲載されています。
+Google で　Bootstrap4 を検索し、Bootstrap4の公式ページを表示させましょう。
+
+---
+ブラウザを立ち上げて、Googleのキーワードに「Bootstrap4」と入力して検索します。ヒットしたBootstrap4の公式ページがジャンプしましょう。
+
+---
+Bootstrap4の公式ページが表示された「Get Started」ボタンをクリックします。表示されたページを少し下にスクロールして「Starter template」のセクションを表示させてください。
+
+---
+ここに表示されたHTMLが、Bootstrap4の基本的な雛形です。CopyボタンをクリックしてHTMLをクリップボードに記憶させます。
+
+---
+それでは、学習用アプリケーションのフォルダに作成済みのindex.htmlに、Bootstrap4の基本的な雛形を貼り付けましょう。VSCodeでindex.htmlを開いて、クリップボードから貼り付けます。
+
+---
+雛形を貼り付けると、HTMLリアルタイムプレビューに「Hello, world!」と表示されます。このままだとBootstrap4が適用されているのがわからないので、雛形のCSS部分をコメントアウトしていましょう。
+
+---
+VSCodeで該当の行を選択して、Ctrl-/をタイプするとコメントアウトされます。
+
+そうすると、表示された文字が通常のHTMLのフォントで表示されます。
+
+もう一度Ctrl-/でコメントアウトを外しましょう。
+
+文字が標準より少し大きくなっていることがわかります。ここではこの違いでBootstrap4が適用されていると感じていただければと思います。
+
+この後のレクチャーでBootstrap4独自のクラスを適用させる実験をしますので、そちらでさらにBootstarp4の適用を感じていただきます。
+
+---
+貼り付けた雛形のCSSやJavaScriptはCDNを参照するようになっているので、これをnpmでインストールしたローカルのCSSやJavaScriptを参照するように変更します。
+
+---
+VSCodeでlinkとタブをタイプして、src属性にnpmでインストールしたbootstrap.min.cssを指定します。CDNのlink行は不要なので削除しましょう。
+
+---
+同じく、JavaScriptもnpmでインストールしたBootstrap4, JQueryやPopper.jsに変更します。script:srcとタブをタイプし、src属性にnpmでインストールしたjquery.min.jsを指定します。
+
+同様にpopper.min.jsやbootstrap.min.jsもローカルのjsファイルを参照するように作成しましょう。
+
+3行完成したらCDNのscript行は不要なので削除しましょう。
+
+
+---
+これで、Bootstrap4の基本的な雛形に関する解説は終わりです。
+
+
+
