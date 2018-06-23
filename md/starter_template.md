@@ -17,7 +17,7 @@ Bootstrap4の公式ページが表示されたら「Get Started」ボタンを�
 ここに表示されたHTMLが、Bootstrap4の基本的な雛形です。CopyボタンをクリックしてHTMLをクリップボードに記憶させます。
 
 ---
-次に、VSCodeでHTMLリアルタイムプレビューを表示させます。VSCodeを起動したら、index.htmlを開いてください。それから表示メニューのコマンドパレットを選択します。コマンドパレットが表示されたら、Show side と入力し、表示された Show side preview を選択します。そうすると、編集エリア内にVSCodeの内部エディタが起動されます。
+次に、VSCodeでHTMLリアルタイムプレビューを表示させます。VSCodeを起動したら、index.htmlを開いてください。それから表示メニューのコマンドパレットを選択します。コマンドパレットが表示されたら、Show side と入力し、表示された Show side preview を選択します。そうすると、編集エリア内にVSCodeの内部ブラウザが起動されます。
 
 ---
 それでは、学習用アプリケーションのフォルダに作成済みのindex.htmlに、Bootstrap4の基本的な雛形を貼り付けましょう。VSCodeでindex.htmlを開いて、既に入力されてあるHTMLを全て削除しましょう。それから、クリップボードからBootstrap4の雛形を貼り付けます。
