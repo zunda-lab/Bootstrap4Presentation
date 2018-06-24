@@ -8,3 +8,4 @@ Webデザインに対して苦手意識を持つエンジニアのための『Bo
 1. [VSCode（Visual Studio Code）のセットアップ](#/setup_vscode)
 1. [学習用アプリケーションの事前準備](#/setup_app)
 1. [Bootstrapの基本的な雛形](#/starter_template)
+1. [Bootstrap4のクラス適用](#/apply_class)
